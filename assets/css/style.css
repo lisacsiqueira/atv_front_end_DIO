@@ -1,0 +1,229 @@
+@import url(reset.css);
+
+body{
+    background-color: black;
+ 
+    
+
+   
+
+    
+}
+
+p{
+    margin-top: 10px;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23.48px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+
+
+
+}
+
+h1{
+    margin: 0px;
+    text-transform: uppercase;
+
+    font-family: Raleway;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 50px;
+    display: inline;
+    
+
+    background-image: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%); /* Gradiente da fonte */
+    -webkit-background-clip: text; /* Clipa o fundo para o texto */
+    color: transparent; /* Torna o texto transparente para mostrar o gradiente */
+
+}
+
+h2{
+    margin-top: 120px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+
+    font-family: Raleway;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 37.57px;
+    letter-spacing: 0.19em;
+    text-align: center;
+
+    background-image: linear-gradient(200000deg, #33A8DB 0%, #1472B7 100%); /* Gradiente da fonte */
+    -webkit-background-clip: text; /* Clipa o fundo para o texto */
+    color: transparent; /* Torna o texto transparente para mostrar o gradiente */
+
+
+
+
+
+}
+
+.banner{
+    background-color: black;
+
+    display: flex; /* Adiciona flexbox para alinhamento */
+    flex-direction: column; /* Alinha os itens em coluna */
+    justify-content: center; /* Centraliza verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
+
+
+    height: 600px;
+    border-bottom: 1px solid #33A8DB80;
+    padding-top: 60px;
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url('../images/banner.png');
+}
+
+
+
+
+
+.banner .banner-content{
+    width: 550px;
+    height: 393px;
+    top: 100px;
+    
+    text-align: center;
+    
+
+
+}
+
+.banner-content button{
+    margin-top: 20px;
+    width: 326px;
+    height:57px;
+   
+    text-transform: uppercase;
+   
+
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 18.78px;
+    letter-spacing: 0.21em;
+    text-align: center;
+
+    color:#1572B7;
+    border: 2px solid;
+    background: transparent;
+
+
+    
+}
+.modules-list{
+    margin: 0;
+}
+#course-content{
+    margin: 0;
+    padding-bottom: 10%;
+    
+}
+
+#course-content .modules-list .module{
+    margin-top: 20px;
+
+    width: 535px;
+    height: 51px;
+    text-align: center;
+    padding-top: 16px;
+
+    border-radius: 57px;
+    border: 1px solid rgba(51, 168, 219, 1);
+    box-shadow: inset -5px 6px 8px rgba(0, 0, 0, .7);
+    background-color: #252525;
+   
+
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.78px;
+   color: aliceblue;
+
+
+ 
+}
+#course-content .modules-list .module span{
+    color: rgba(51, 168, 219, 1);
+}
+
+#course-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(2, 2, 2);
+    height: 600px;
+    margin: 0;
+
+}
+
+#course-content p{
+    margin: 50px 100px 20px;
+    font-size: 17px;
+}
+
+
+#transform-world{
+    
+    margin: 0;
+    background-color: #33A8DB;
+    height: 400px;
+    background-image: url(../images/woman-code.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#transform-world p{
+   padding-top: 100px;
+   padding-left: 50px;
+
+   font-family: Raleway;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 46.96px;
+    text-align: left;
+
+
+    width: 244px;
+    height: 141px;
+ 
+}
+
+#professional-challenges{
+
+    display: flexbox;
+    padding: 50px;
+}
+
+#professional-challenges img{
+    
+    display: block;
+    margin: auto;
+    padding: 50px;
+
+}
+
+
+footer {
+    display: block;
+    margin: auto;
+    border-top: 1px solid rgba(51, 168, 219, 1);
+    padding: 30px;
+    
+}
+
+footer img{
+    display: block;
+    margin: auto;
+    padding: 20px;
+
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.78px;
+
+
+}
